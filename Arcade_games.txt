@@ -15,3 +15,11 @@ placeholder="Password" required>
 </form>
 </body>
 </html>
+
+
+//1st Game
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+int main(){
+int slot1, slot2, slot3;
