@@ -36,3 +36,44 @@ else
 printf("No match. Try again!\n");
 return
 
+
+//2nd Game
+#include <stdio.h>
+#include<conio.h>
+#include<windows.h>
+int main(){
+int dinoY=0, cactusX=20,jump=0, gameover=0;
+while(!gameover){
+if(kbhit()){
+if(getch()==")jump=1;
+}
+system("cls");
+
+for(int i=0;i<25;i++)printf("_");
+printf("\n");
+
+dinoY=jump?1:0;
+for(int i=0;i<dinoY;i++)
+print("\n");
+printf("D\n");
+
+for(int i=0;i<1 -dinoY;i++)
+printf("\n");
+for(int i=0;i<cactusX;i++)
+print("");
+printf("|");
+
+if(cactusX==1 && dinoY ==0){
+gameover=1;
+break;
+}
+
+cactusX--;
+if(cactusX<0) cactusX=20;
+jump=0;
+
+sleep(100);
+}
+printf("\nGame Over!\n");
+return 0;
+}
