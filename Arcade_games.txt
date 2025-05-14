@@ -32,4 +32,22 @@ color: #fff;
 padding:20px;
 text-align:center;
 }
-h1
+h1{
+margin:0;
+}
+.container{
+display:grid;
+grid-template-columns:
+repeat(autofit,minmax(200px, 1fr));
+gap:20px;
+padding:40px;
+}
+.game-card {
+background: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+text-align: center;
+transition: transform 0.2s;
+ }
+
