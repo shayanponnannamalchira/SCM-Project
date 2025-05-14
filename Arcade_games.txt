@@ -15,3 +15,9 @@ placeholder="Password" required>
 </form>
 </body>
 </html>
+
+//Menu
+<!Doctype html>
+<head>
+<title>Arcade Game Selectore</title>
+
