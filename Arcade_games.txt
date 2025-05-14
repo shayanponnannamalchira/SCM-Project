@@ -39,41 +39,33 @@ return
 
 //2nd Game
 #include <stdio.h>
-#include<conio.h>
-#include<windows.h>
-int main(){
-int dinoY=0, cactusX=20,jump=0, gameover=0;
-while(!gameover){
-if(kbhit()){
-if(getch()==")jump=1;
-}
-system("cls");
+#include <stdlib.h>
+#include <time.h>
 
-for(int i=0;i<25;i++)printf("_");
-printf("\n");
+int main() {
+    srand(time(NULL));
 
-dinoY=jump?1:0;
-for(int i=0;i<dinoY;i++)
-print("\n");
-printf("D\n");
+    printf("--- COIN FLIP! ---\n");
+    printf("Guess heads (h) or tails (t):\n");
 
-for(int i=0;i<1 -dinoY;i++)
-printf("\n");
-for(int i=0;i<cactusX;i++)
-print("");
-printf("|");
+    char guess;
+    scanf(" %c", &guess);
+    int result = rand() % 2;
+    char outcome;
 
-if(cactusX==1 && dinoY ==0){
-gameover=1;
-break;
-}
+    if (result == 0) {
+        outcome = 'h';
+    } else {
+        outcome = 't';
+    }
 
-cactusX--;
-if(cactusX<0) cactusX=20;
-jump=0;
+    printf("The coin landed on: %c\n", outcome);
 
-sleep(100);
-}
-printf("\nGame Over!\n");
-return 0;
+    if (guess == outcome) {
+        printf("YOU WIN!\n");
+    } else {
+        printf("YOU LOSE!\n");
+    }
+
+    return 0;
 }
