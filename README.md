@@ -24,7 +24,7 @@
 
 ## About The Project
 
-This repository hosts a collection of classic arcade games, developed as a collaborative project for Team 2. The aim is to provide a fun and engaging set of playable games, demonstrating various programming concepts and game development techniques.
+This repository hosts a collection of classic arcade games, developed as a collaborative project for Source Code Management class. The aim is to provide a fun and engaging set of playable games, demonstrating various programming concepts and game development techniques.
 
 The project currently features:
 
@@ -36,13 +36,9 @@ The project currently features:
 * **Game 4: Guess the Number** (Based on `GuessTheNumberGame.py`) - A simple game where the user tries to guess a randomly generated number.
 * **Game 5: Hangman** (Based on `Hangman_Game.py`) - The classic word-guessing game.
 
-*(If there are other games or if these descriptions are inaccurate, please adjust them!)*
-
 ### Built With
 
 * Python
-* *(Add any specific Python libraries here, e.g., `turtle`, `tkinter`, `Pygame` if used)*
-    * [Python](https://www.python.org/)
 
 ## Getting Started
 
@@ -68,11 +64,6 @@ Ensure you have Python installed on your system.
 2.  Navigate into the project directory:
     ```bash
     cd team2_arcade_games
-    ```
-3.  *(Optional) If any specific Python packages are required (e.g., Pygame), you might need to install them. Create a `requirements.txt` if necessary.*
-    ```bash
-    # Example for Pygame (if used)
-    # pip install pygame
     ```
 
 ## Usage
@@ -142,7 +133,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Shayan Ponnannamalchira - [Your LinkedIn/Email/Other Contact Info]
+Shayan Ponnannamalchira - www.linkedin.com/in/shayan-ponnanna-malchira
 
 Project Link: [https://github.com/shayanponnannamalchira/team2_arcade_games](https://github.com/shayanponnannamalchira/team2_arcade_games)
 
