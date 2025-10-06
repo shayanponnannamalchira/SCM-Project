@@ -137,9 +137,3 @@ Shayan Ponnannamalchira - www.linkedin.com/in/shayan-ponnanna-malchira
 
 Project Link: [https://github.com/shayanponnannamalchira/team2_arcade_games](https://github.com/shayanponnannamalchira/team2_arcade_games)
 
-## Acknowledgments
-
-* [Img Shields](https://shields.io/)
-* [GitHub Pages](https://pages.github.com)
-* [Awesome README](https://github.com/matiassingers/awesome-readme)
-* *(Add any specific tutorials, resources, or collaborators you'd like to acknowledge here)*
